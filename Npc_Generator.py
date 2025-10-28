@@ -13,15 +13,15 @@ amount = int(input("How many Npcs?: "))
 ## Checking if user inputted true for isCreating
 if isCreating:
     ## for loop to create the nessesary amount of Npcs
-    for i in range(amount):
+    for number in range(amount):
         ## Gives the Npc A Number Base On The Iteration
-        NpcNumber = i + 1
+        NpcNumber = number + 1
         ## Gives NPC a Random Name.
         NpcName = random.choice(names)
         ## Adds a 500 milisecond pause
         {time.sleep(0.5)}
         ## Prints the Npc's Information, such as Number, Name, and Attributes
-        print(f"Npc#{NpcNumber} \n Attributes: \n Strength = {random.randint(1, 100)} \n Speed = {random.randint(1, 100)} \n IQ = {random.randint(1, 250)} \n Size = {random.randint(1, 8)}")
+        print(f"Npc#{NpcNumber} \n Attributes: \n Name = {NpcName} \n Strength = {random.randint(1, 100) + 0.00} \n Speed = {random.randint(1, 100) + 0.00} \n IQ = {random.randint(1, 250)} \n Size = {random.randint(1, 8)}")
         ## Adds a 500 milisecond pause
         {time.sleep(0.5)}
     ## Sets isCreating to false to prevent the loop from running again.
