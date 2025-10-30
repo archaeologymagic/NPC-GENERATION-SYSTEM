@@ -41,6 +41,8 @@ and the print statment which should be 2 lines under it, <br>
 
 
         print(f"Npc#{NpcNumber} \n Attributes: \n Name = {NpcName} \n Attribute1 = {Attribute1} \n Attribute2 = {Attribute2} \n Attribute3 = {Attribute3} \n Attribute4 = {Attribute4} \n IsFriendly = {IsFriendly}") 
+
+
 <br>
 
 To add a new attibute, simply make a new variable in this format and add it under the other varibles,
@@ -57,7 +59,9 @@ or like this
 
 Next, add it into the print statment like this,
 
+
         print(f" \n NewAttribute = {NewAttribute} ")
+
 
 or like this,
 
