@@ -101,3 +101,7 @@ Npc#2 <br>
  Attribute4 = 77.0 <br>
  IsFriendly = True<br>
 All Npcs Have Been Generated!<br>
+
+
+## Author
+Hello! Im Muhammad Azaan, i'm a 14 year old high school student! I made this project in CSAEA (Computer Science and Applied Engineering Academy) for school work. I hope this project can benefit you! Feel free to use this for your own need. Remember that this project has a MIT liscence so follow all of those rules.
